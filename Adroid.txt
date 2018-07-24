@@ -4,3 +4,22 @@ Navive App :  핸드폰 기능을 Full 이용 가능한 (내 전공 했던거 ) 코틀린이 차지할거
 Web App : 크롬,인터넷 키면 웹페이지 접속하면 나타나는 형태 - 그냥 인터넷 사용 - Native 전혀 못함 - 인식성이 좋다만 , 반응형 [부트스트랩] <- 우리가 하는거가 아니다
 Hybrid App : [우리의 궁극성이다 ! ] html,css,js~~ 다사용    동작을  native 로 보낼수가 있다 , 전화 및 진동 캡쳐    + 안드로이드 문법  (완벽하지 않음 )  <- tarket 
 html5 야망이  모든것을 통합 (앵귤러,) ,고성능 3D 엔진 불가   응용SW 
+
+----------------------------
+한장면 : activety : frame  패널     
+xml 파일임  UI를 
+
+R = resourece = @ 
+---------------------
+maven   / gadle (최신) 
+
+onCreate - main 
+
+Gradle - maven 처럼 관리 해줌 
+
+AndroidManifest .xml  - 앱에 대한 권한 
+java - java 
+
+wrap_content : 내용의 크기만큼  
+
+<!--@ 리소스를 뜻함  + 는 처음으로 만드는것 -->
