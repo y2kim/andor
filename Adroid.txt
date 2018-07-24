@@ -23,3 +23,18 @@ java - java
 wrap_content : 내용의 크기만큼  
 
 <!--@ 리소스를 뜻함  + 는 처음으로 만드는것 -->
+
+        Vibrator vi = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+        vi.vibrate(1000);
+        /* 현재 권한이 없음  */
+        /* 권한 중  위험한 권한  : 전화 ,[금전적 피해 같은것] 또한번 권한을 받아야함  // 진동은  일반적 권한  */
+
+
+ <uses-permission android:name="android.permission.VIBRATE" />
+
+
+---
+https://stackoverflow.com/questions/8238231/android-how-to-set-mediaplayer-volume-programmatically
+
+
+http://itmir.tistory.com/262
