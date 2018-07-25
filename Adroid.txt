@@ -38,3 +38,23 @@ https://stackoverflow.com/questions/8238231/android-how-to-set-mediaplayer-volum
 
 
 http://itmir.tistory.com/262
+
+
+------------------
+
+인터넷 사용 권한인 일반 권한 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+1. 메인 스레드는  네트워크 작업을 할수가 없다
+ // 메인쓰레드에서  네트워크 작업을 할수가 없다 
+2 xml 만들어 놓은 view를 아무 thread 에서만 쓸 수 있는게 아니다 
+그것을 생성한 메인 쓰레드에서만 사용 가능        
+
+패킷을 가져오는 네트워킹 과정때문에 새로운 스레드를 만들었다  
+
+----------------------------------------------------------------
+변수를 final 만두는 이유는  oncreate 에서  한번 동작하고 사라지기 때문에   
+
+
+
+특정 라이브러리 중 Intent 로 불러야 한다  (전환 )
